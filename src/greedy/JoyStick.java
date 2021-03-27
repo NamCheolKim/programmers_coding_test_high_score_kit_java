@@ -1,5 +1,5 @@
 package greedy;
-// 프로그래머스 조이스틱
+// 프로그래머스 level 2 조이스틱
 public class JoyStick {
     static int solution(String name) {
 

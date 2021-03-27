@@ -1,5 +1,5 @@
 package greedy;
-// 프로그래머스 체육복
+// 프로그래머스 level 1 체육복
 public class WorkoutClothes {
     static int solution(int n, int[] lost, int[] reserve) {
 
