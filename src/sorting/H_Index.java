@@ -2,6 +2,7 @@ package sorting;
 
 import java.util.Arrays;
 
+// 프로그래머스 level 2 H-Index
 public class H_Index {
     static int solution(int[] citations) {
 
