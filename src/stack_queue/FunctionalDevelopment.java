@@ -39,13 +39,13 @@ public class FunctionalDevelopment {
                 // 첫 작업이 완료 된 뒤 같이 배포 될 작업이므로 카운트
                 cntFunc++;
             }
-            // 첫 작업의 소요기간 보다 길 경우 더 늦게 완료될 작업이므로 카운트를 멈춤
+            // 첫 작업의 남은기간 보다 길 경우 더 늦게 완료될 작업이므로 카운트를 멈춤
             else{
                 // list 에 카운트된 작업들을 추가
                 resultList.add(cntFunc);
                 // 카운트를 새로 초기화
                 cntFunc = 1;
-                // 새로운 비교값으로 다음 소요기간을 지정
+                // 새로운 비교값으로 다음 남은기간을 지정
                 prevFunc = nextFunc;
             }
         }
